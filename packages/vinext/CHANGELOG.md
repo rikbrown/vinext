@@ -1,5 +1,21 @@
 # vinext
 
+## 1.4.7
+
+### Bug Fixes
+
+#### App Router
+
+- don't learn optimistic route shells from rewritten URLs (#4720)
+- answer 404 for params a static export doesn't list (#4708)
+- link a page's client component CSS in the shell under loading.js (#4707)
+
+#### Misc
+
+- **Prerender:** render the 404 page without matching a top-level dynamic route (#4709)
+- **Image:** serve data: and blob: sources unoptimized and eager (#4725)
+- **Cloudflare:** skip warming paths a next.config redirect or external rewrite answers (#4706)
+
 ## 1.4.6
 
 ### Bug Fixes
